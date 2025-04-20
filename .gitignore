@@ -1,0 +1,10 @@
+# Next.js build output
+.next
+
+# Node dependencies
+node_modules
+
+# Optional: log files and other common ignores
+*.log
+.env
+.DS_Store
