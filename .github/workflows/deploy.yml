@@ -20,10 +20,7 @@ jobs:
         run: npm ci
         
       - name: Build
-        run: npx next build
-        
-      - name: Export
-        run: npx next export
+        run: npm run build
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
